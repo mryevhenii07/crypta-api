@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/crypta-api/static/css/main.e6c13ad2.css",
-    "main.js": "/crypta-api/static/js/main.de25c4e7.js",
+    "main.css": "/crypta-api/static/css/main.b1594904.css",
+    "main.js": "/crypta-api/static/js/main.6ece4595.js",
     "index.html": "/crypta-api/index.html",
-    "main.e6c13ad2.css.map": "/crypta-api/static/css/main.e6c13ad2.css.map",
-    "main.de25c4e7.js.map": "/crypta-api/static/js/main.de25c4e7.js.map"
+    "main.b1594904.css.map": "/crypta-api/static/css/main.b1594904.css.map",
+    "main.6ece4595.js.map": "/crypta-api/static/js/main.6ece4595.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.de25c4e7.js"
+    "static/css/main.b1594904.css",
+    "static/js/main.6ece4595.js"
   ]
 }
