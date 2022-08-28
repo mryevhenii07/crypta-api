@@ -15,12 +15,10 @@ function App() {
       .get(url)
       .then((response) => {
         setCoins(response.data);
-        console.log(response.data[0]);
       })
       .catch((error) => console.log(error));
   }, []);
 
-  console.log(coins);
   return (
     <div className="App">
       <NavBar />

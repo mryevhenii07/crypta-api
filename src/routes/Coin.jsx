@@ -8,6 +8,7 @@ import s from "./Coin.module.css";
 const Coin = () => {
   const { coinId } = useParams();
   const [coin, setCoin] = useState({});
+
   const url = `https://api.coingecko.com/api/v3/coins/${coinId}`;
 
   useEffect(() => {
@@ -19,9 +20,8 @@ const Coin = () => {
       .catch((error) => {
         console.log(error);
       });
-  }, []);
+  }, [url]);
 
-  console.log(coin?.market_data?.current_price);
   return (
     <div>
       <div className={s.coinContainer}>
